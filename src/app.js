@@ -10,6 +10,7 @@ const { createPrivateKey } = require('crypto');
 
 
 const app = express();
+const port = process.env.PORT || 30001
 
 // Express path config
 const publicPath = path.join(__dirname, '../public');
@@ -78,6 +79,6 @@ app.get('*', (req, res) => {{
 }})
 
 
-app.listen((3001), () => {
-    console.log('server is up on port 3000')
+app.listen((port), () => {
+    console.log('server is up on port' + port)
 });
