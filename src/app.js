@@ -1,12 +1,9 @@
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
-const { title } = require('process');
-const forecast = require('../../weather-app/utills/forecast');
 const geoCode = require('./utills/geo-code');
 const foreCast = require('./utills/forecast');
 const cities = require('all-the-cities');
-const { createPrivateKey } = require('crypto');
 
 
 const app = express();
