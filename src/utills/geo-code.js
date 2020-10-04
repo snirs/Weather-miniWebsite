@@ -1,4 +1,3 @@
-const { get } = require('request-promise');
 const rp = require('request-promise');
 
 const GEO_API_KEY = 'pk.eyJ1Ijoic25pcjEyIiwiYSI6ImNrZmdxaDk3eTA1M3AycnA4dG5kNXJ6dHYifQ.kqzmFGPasMZ3ZPTxOIQ9aA'
